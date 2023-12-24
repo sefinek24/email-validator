@@ -9,12 +9,12 @@ This lightweight module facilitates precise email address validation, returning 
 
 
 ## 🟢 » Node.js
-### npm
+### Installation via npm
 ```bash
 npm install email-validator
 ```
 
-### yarn
+### Installation via yarn
 ```bash
 yarn add email-validator
 ```
