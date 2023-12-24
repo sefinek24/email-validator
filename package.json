@@ -23,7 +23,7 @@
   "license": "MIT",
   "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
   "main": "src/index.js",
-  "typings": "index.d.ts",
+  "typings": "src/index.d.ts",
   "scripts": {
     "test": "jest",
     "update": "ncu -u && yarn install && yarn up",
