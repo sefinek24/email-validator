@@ -12,6 +12,17 @@ This lightweight module facilitates precise email address validation, returning 
 npm install email-validator
 ```
 
+## 🌍 » Browser
+### cdn.sefinek.net
+```js
+
+```
+### jsdelivr.net
+```
+https://cdn.jsdelivr.net/gh/sefinek24/email-validator@latest/dist/validator.js
+```
+
+
 ## 🤔 » Example
 ```js
 const emailValidator = require('email-validator');
