@@ -26,7 +26,7 @@
   "typings": "index.d.ts",
   "scripts": {
     "test": "jest",
-    "up": "ncu -u && npm install && npm update && npm audit fix"
+    "update": "ncu -u && yarn install && yarn up"
   },
   "devDependencies": {
     "jest": "^29.7.0"
