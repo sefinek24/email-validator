@@ -1,0 +1,34 @@
+{
+  "name": "email-validator",
+  "version": "1.0.0",
+  "description": "Lightweight npm module for email address validation.",
+  "keywords": [
+    "email",
+    "validation",
+    "validator",
+    "syntax",
+    "email-verify",
+    "email-verifier",
+    "email-checker",
+    "email-address-validator"
+  ],
+  "homepage": "https://github.com/sefinek24/email-validator#readme",
+  "bugs": {
+    "url": "https://github.com/sefinek24/email-validator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sefinek24/email-validator.git"
+  },
+  "license": "MIT",
+  "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "up": "ncu -u && npm install && npm update && npm audit fix"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
