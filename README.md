@@ -25,9 +25,9 @@ const emailValidator = require('email-validator');
 const testEmail = 'contact@sefinek.net';
 
 if (emailValidator.test(testEmail)) {
-	console.log(`Email ${testEmail} is valid!`);
+    console.log(`Email ${testEmail} is valid!`);
 } else {
-	console.log(`Email ${testEmail} is NOT valid!`);
+    console.log(`Email ${testEmail} is NOT valid!`);
 }
 ```
 
