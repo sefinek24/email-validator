@@ -1,4 +1,4 @@
-const emailValidator = require('./index.js');
+const emailValidator = require('./src');
 const email = 'contact@sefinek.net';
 
 if (emailValidator.test(email)) {

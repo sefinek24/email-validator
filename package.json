@@ -22,13 +22,16 @@
   },
   "license": "MIT",
   "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
-  "main": "index.js",
+  "main": "src/index.js",
   "typings": "index.d.ts",
   "scripts": {
     "test": "jest",
-    "update": "ncu -u && yarn install && yarn up"
+    "update": "ncu -u && yarn install && yarn up",
+    "build": "webpack --config webpack.config.js"
   },
   "devDependencies": {
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
   }
 }

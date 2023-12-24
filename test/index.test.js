@@ -1,4 +1,4 @@
-const emailValidator = require('../index.js');
+const emailValidator = require('../src/index.js');
 
 const validEmails = [
 	'01234567890@numbers-in-local.net',
