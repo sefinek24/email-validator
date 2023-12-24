@@ -1,6 +1,6 @@
 const { version } = require('./package.json');
 
-const MAIN_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const MAIN_REGEX = /^[-!#$%&'*+\\/0-9=?A-Z^_a-z`{|}~](\.?[-!#$%&'*+\\/0-9=?A-Z^_a-z`{|}~])*@[a-zA-Z0-9](-*\.?[a-zA-Z0-9])*\.[a-zA-Z](-?[a-zA-Z0-9])+$/;
 const ASTERISK_REGEX = /\*/;
 
 const emailValidator = {
@@ -16,9 +16,7 @@ const emailValidator = {
 
 		if (ASTERISK_REGEX.test(email)) return false;
 
-		if (account.startsWith('.') || account.endsWith('.') ||
-			address.startsWith('.') || address.endsWith('.') ||
-			account.includes('..') || address.includes('..')) {
+		if (account.startsWith('.') || account.endsWith('.') || address.startsWith('.') || address.endsWith('.') || account.includes('..') || address.includes('..')) {
 			return false;
 		}
 
