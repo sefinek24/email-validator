@@ -56,6 +56,8 @@ https://cdn.jsdelivr.net/gh/sefinek24/email-validator@latest/dist/validator.js
 
     <script src="https://cdn.sefinek.net/npm/email-validator/dist/validator.js"></script>
     <script>
+        const email = 'contact@sefinek.net';
+        
         if (emailValidator.test(email)) {
             console.log(`✔️ Email ${email} is valid.`;
         } else {
