@@ -35,12 +35,12 @@ if (emailValidator.test(testEmail)) {
 ## 🌍 » Browser
 ### cdn.sefinek.net
 ```
-https://cdn.sefinek.net/npm/email-validator/dist/validator.js
+https://cdn.sefinek.net/npm/email-validator/dist/browser.js
 ```
 
 ### jsdelivr.net
 ```
-https://cdn.jsdelivr.net/gh/sefinek24/email-validator@latest/dist/validator.js
+https://cdn.jsdelivr.net/gh/sefinek24/email-validator@latest/dist/browser.js
 ```
 
 ### Example
@@ -54,7 +54,7 @@ https://cdn.jsdelivr.net/gh/sefinek24/email-validator@latest/dist/validator.js
 <body>
     <h1>email-validator</h1>
 
-    <script src="https://cdn.sefinek.net/npm/email-validator/dist/validator.js"></script>
+    <script src="https://cdn.sefinek.net/npm/email-validator/dist/browser.js"></script>
     <script>
         const email = 'contact@sefinek.net';
         

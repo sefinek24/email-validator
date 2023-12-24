@@ -4,7 +4,7 @@ module.exports = {
 	entry: './src/index.js',
 	mode: 'production',
 	output: {
-		filename: 'validator.js',
+		filename: 'browser.js',
 		path: path.resolve(__dirname, 'dist'),
 		library: 'emailValidator',
 		libraryTarget: 'window',
