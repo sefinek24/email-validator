@@ -88,7 +88,12 @@ const invalidEmails = [
 	'user@123.123.123.123]',
 	'user@com',
 	'user@example',
+	'boop😽@wp.pl',
+	'@wp.pl',
+	'@gmail.com',
+	'sdafgi/\\\'jhfdshajikdfs.,/akjlhsdfakjhlfdashjkladf/,.kshkljadsfhkljsda/][][\\]rodweimyrycweomymoencwrtymoeqwcrtymoqrewcfymorecqwmyuor;eqwc@gmail.com',
 	'user@[123.123.123.123]',
+	'ówó@ówó.pl',
 ];
 
 const validUnsupported = [
@@ -101,24 +106,20 @@ const validUnsupported = [
 	'punycode-numbers-in-tld@sld.xn--3e0b707e',
 ];
 
-describe('> Test valid emails', () => {
-	validEmails.forEach(email => {
+describe('Email address validation', () => {
+	describe.each(validEmails)('Test valid email addresses', email => {
 		it(email, () => {
 			expect(emailValidator.test(email)).toBe(true);
 		});
 	});
-});
 
-describe('> Test invalid emails', () => {
-	invalidEmails.forEach(email => {
+	describe.each(invalidEmails)('Test invalid email addresses', email => {
 		it(email, () => {
 			expect(emailValidator.test(email)).toBe(false);
 		});
 	});
-});
 
-describe('> Test unsupported emails', () => {
-	validUnsupported.forEach(email => {
+	describe.each(validUnsupported)('Test valid but unsupported email addresses', email => {
 		it(email, () => {
 			expect(emailValidator.test(email)).toBe(false);
 		});
