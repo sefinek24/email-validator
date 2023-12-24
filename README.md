@@ -20,6 +20,19 @@ yarn add email-validator
 ```
 
 
+## 🤔 » Node.js example
+```js
+const emailValidator = require('email-validator');
+const testEmail = 'contact@sefinek.net';
+
+if (emailValidator.test(testEmail)) {
+	console.log(`Email ${testEmail} is valid!`);
+} else {
+	console.log(`Email ${testEmail} is NOT valid!`);
+}
+```
+
+
 ## 🌍 » Browser
 ### cdn.sefinek.net
 ```
@@ -36,25 +49,22 @@ https://cdn.jsdelivr.net/gh/sefinek24/email-validator@latest/dist/validator.js
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>email-validator</title>
     <meta charset="utf-8">
 </head>
 <body>
+    <h1>email-validator</h1>
 
+    <script src="https://cdn.sefinek.net/npm/email-validator/dist/validator.js"></script>
+    <script>
+        if (emailValidator.test(email)) {
+            console.log(`✔️ Email ${email} is valid.`;
+        } else {
+            console.log(`❎ Email ${email} is NOT valid!`);
+        }
+    </script>
 </body>
 </html>
-```
-
-
-## 🤔 » Example
-```js
-const emailValidator = require('email-validator');
-const testEmail = 'contact@sefinek.net';
-
-if (emailValidator.test(testEmail)) {
-	console.log(`Email ${testEmail} is valid!`);
-} else {
-	console.log(`Email ${testEmail} is NOT valid!`);
-}
 ```
 
 
