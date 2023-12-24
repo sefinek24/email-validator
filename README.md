@@ -7,19 +7,41 @@ This lightweight module facilitates precise email address validation, returning 
 [![Commit activity](https://img.shields.io/github/commit-activity/w/sefinek24/email-validator)](https://github.com/sefinek24/email-validator/commits/main)
 [![Code size](https://img.shields.io/github/languages/code-size/sefinek24/email-validator)](https://github.com/sefinek24/email-validator)
 
+
 ## 📥 » Installation
+### npm
 ```bash
 npm install email-validator
 ```
 
+### yarn
+```bash
+yarn add email-validator
+```
+
+
 ## 🌍 » Browser
 ### cdn.sefinek.net
-```js
-
 ```
+https://cdn.sefinek.net/npm/email-validator/dist/validator.js
+```
+
 ### jsdelivr.net
 ```
 https://cdn.jsdelivr.net/gh/sefinek24/email-validator@latest/dist/validator.js
+```
+
+### Usage
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+
+</body>
+</html>
 ```
 
 
@@ -35,9 +57,11 @@ if (emailValidator.test(testEmail)) {
 }
 ```
 
+
 ## ⭐ » Thank you
 If you find this module helpful, please consider giving the [repository a star](https://github.com/sefinek24/email-validator).
 For any questions or issues, please create a new [Issue](https://github.com/sefinek24/email-validator/issues/new).
+
 
 ## 📑 » MIT License
 Copyright 2023 © by [Sefinek](https://sefine.net). All Rights Reserved.
