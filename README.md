@@ -8,7 +8,7 @@ This lightweight module facilitates precise email address validation, returning 
 [![Code size](https://img.shields.io/github/languages/code-size/sefinek24/email-validator)](https://github.com/sefinek24/email-validator)
 
 
-## 📥 » Installation
+## 📥 » Installation (Node.js)
 ### npm
 ```bash
 npm install email-validator
@@ -19,8 +19,7 @@ npm install email-validator
 yarn add email-validator
 ```
 
-
-## 🤔 » Node.js example
+### Example
 ```js
 const emailValidator = require('email-validator');
 const testEmail = 'contact@sefinek.net';
@@ -44,7 +43,7 @@ https://cdn.sefinek.net/npm/email-validator/dist/validator.js
 https://cdn.jsdelivr.net/gh/sefinek24/email-validator@latest/dist/validator.js
 ```
 
-### Usage
+### Example
 ```html
 <!DOCTYPE html>
 <html lang="en">
