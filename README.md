@@ -68,6 +68,9 @@ https://cdn.jsdelivr.net/gh/sefinek24/email-validator@latest/dist/browser.js
 </html>
 ```
 
+### Demo
+https://cdn.sefinek.net/npm/email-validator/test/browser
+
 
 ## ⭐ » Thank you
 If you find this module helpful, please consider giving the [repository a star](https://github.com/sefinek24/email-validator).
