@@ -3,3 +3,4 @@
 .github
 .eslintrc.js
 .yarnrc.yml
+webpack.config.js

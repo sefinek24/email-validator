@@ -760,6 +760,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sefinek/email-validator@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@sefinek/email-validator@workspace:."
+  dependencies:
+    jest: "npm:^29.7.0"
+    webpack: "npm:^5.89.0"
+    webpack-cli: "npm:^5.1.4"
+  languageName: unknown
+  linkType: soft
+
 "@sinclair/typebox@npm:^0.27.8":
   version: 0.27.8
   resolution: "@sinclair/typebox@npm:0.27.8"
@@ -1704,16 +1714,6 @@ __metadata:
   checksum: a02416f3293d28120d5132546a6aea614ebd2d820a684f41b1c20138331922ddc672c4a59bfc4b91bb5aee1ba608f6c10cd3f69c344cd434397e7f14a4c97348
   languageName: node
   linkType: hard
-
-"email-validator@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "email-validator@workspace:."
-  dependencies:
-    jest: "npm:^29.7.0"
-    webpack: "npm:^5.89.0"
-    webpack-cli: "npm:^5.1.4"
-  languageName: unknown
-  linkType: soft
 
 "emittery@npm:^0.13.1":
   version: 0.13.1

@@ -31,14 +31,14 @@ if (emailValidator.test(testEmail)) {
 
 
 ## 🌍 » Browser
+### jsdelivr.net (recommend)
+```
+https://cdn.jsdelivr.net/npm/@sefinek/email-validator@1/dist/browser.min.js
+```
+
 ### cdn.sefinek.net
 ```
 https://cdn.sefinek.net/npm/email-validator/dist/browser.min.js
-```
-
-### jsdelivr.net
-```
-https://cdn.jsdelivr.net/gh/sefinek24/email-validator@latest/dist/browser.min.js
 ```
 
 ### Example
@@ -52,7 +52,7 @@ https://cdn.jsdelivr.net/gh/sefinek24/email-validator@latest/dist/browser.min.js
 <body>
     <h1>email-validator</h1>
 
-    <script src="https://cdn.sefinek.net/npm/email-validator/dist/browser.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@sefinek/email-validator@1/dist/browser.min.js"></script>
     <script>
         const email = 'contact@sefinek.net';
         
