@@ -2,11 +2,9 @@
 This lightweight module facilitates precise email address validation, returning a `Boolean` value of `true` or `false`.
 
 [![npm downloads](https://img.shields.io/npm/dt/@sefinek24/email-validator.svg?maxAge=3600)](https://www.npmjs.com/package/email-validator)
+[![Stats](https://data.jsdelivr.com/v1/package/npm/@sefinek/email-validator/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@sefinek/email-validator)
 [![Issues](https://img.shields.io/github/issues/sefinek24/email-validator)](https://github.com/sefinek24/email-validator/issues)
 [![Last commit](https://img.shields.io/github/last-commit/sefinek24/email-validator)](https://github.com/sefinek24/email-validator/commits/main)
-[![Commit activity](https://img.shields.io/github/commit-activity/w/sefinek24/email-validator)](https://github.com/sefinek24/email-validator/commits/main)
-[![Code size](https://img.shields.io/github/languages/code-size/sefinek24/email-validator)](https://github.com/sefinek24/email-validator)
-
 
 ## 🟢 » Node.js
 ### Installation via npm
@@ -69,7 +67,7 @@ https://cdn.jsdelivr.net/gh/sefinek24/email-validator@latest/dist/browser.min.js
 ```
 
 ### Demo
-https://cdn.sefinek.net/npm/email-validator/test/browser
+> https://cdn.sefinek.net/npm/email-validator/test/browser
 
 
 ## ⭐ » Thank you
