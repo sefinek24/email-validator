@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		}
 	};
 
+	/* Events */
 	submitBtn.addEventListener('click', validateEmail);
 
 	emailInput.addEventListener('keypress', (event) => {
