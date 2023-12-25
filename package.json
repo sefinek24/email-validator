@@ -1,5 +1,5 @@
 {
-  "name": "email-validator",
+  "name": "@sefinek/email-validator",
   "version": "0.1.0",
   "description": "Lightweight npm module for email address validation.",
   "keywords": [

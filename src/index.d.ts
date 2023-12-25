@@ -1,10 +1,10 @@
-declare module 'email-validator' {
+declare module '@sefinek/email-validator' {
     /**
      * Function used for validating an email address.
      *
      * @param {string} email - The email address to validate.
      * @example
-     * const emailValidator = require('email-validator');
+     * const emailValidator = require('@sefinek/email-validator');
      * const email = 'example@example.com';
      *
      * if (emailValidator.test(email)) {

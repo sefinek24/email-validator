@@ -21,7 +21,7 @@ yarn add email-validator
 
 ### Example
 ```js
-const emailValidator = require('email-validator');
+const emailValidator = require('@sefinek/email-validator');
 const testEmail = 'contact@sefinek.net';
 
 if (emailValidator.test(testEmail)) {
