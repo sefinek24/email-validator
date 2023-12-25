@@ -1,20 +1,6 @@
 const { version } = require('../package.json');
 const MAIN_REGEX = /^[-!#$%&'*+\\/0-9=?A-Z^_a-z`{|}~](\.?[-!#$%&'*+\\/0-9=?A-Z^_a-z`{|}~])*@[a-zA-Z0-9](-*\.?[a-zA-Z0-9])*\.[a-zA-Z](-?[a-zA-Z0-9])+$/;
 
-const emailValidator = {
-	test: email => {
-		if (!email || email.includes('*')) return false;
-
-		const [localPart, domain] = email.split('@');
-		if (!localPart || !domain || localPart.length > 64 || domain.length > 255) return false;
-
-		if (!isValidLocalPart(localPart) || !isValidDomain(domain)) return false;
-
-		return MAIN_REGEX.test(email);
-	},
-	version,
-};
-
 function isValidLocalPart(localPart) {
 	if (localPart.startsWith('.') || localPart.endsWith('.')) return false;
 
@@ -34,4 +20,16 @@ function isValidDomain(domain) {
 	return true;
 }
 
-module.exports = emailValidator;
+module.exports = {
+	test: email => {
+		if (!email || email.includes('*')) return false;
+
+		const [localPart, domain] = email.split('@');
+		if (!localPart || !domain || localPart.length > 64 || domain.length > 255) return false;
+
+		if (!isValidLocalPart(localPart) || !isValidDomain(domain)) return false;
+
+		return MAIN_REGEX.test(email);
+	},
+	version,
+};
