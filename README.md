@@ -2,9 +2,9 @@
 This lightweight module facilitates precise email address validation, returning a `Boolean` value of `true` or `false`.
 
 [![npm downloads](https://img.shields.io/npm/dm/@sefinek/email-validator)](https://www.npmjs.com/package/@sefinek/email-validator)
-[![Stats](https://data.jsdelivr.com/v1/package/npm/@sefinek/email-validator/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@sefinek/email-validator)
 [![Issues](https://img.shields.io/github/issues/sefinek24/email-validator)](https://github.com/sefinek24/email-validator/issues)
 [![Last commit](https://img.shields.io/github/last-commit/sefinek24/email-validator)](https://github.com/sefinek24/email-validator/commits/main)
+[![Stats](https://data.jsdelivr.com/v1/package/npm/@sefinek/email-validator/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@sefinek/email-validator)
 
 ## 🟢 » Node.js
 ### Installation via npm
