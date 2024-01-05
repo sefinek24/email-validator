@@ -26,7 +26,7 @@
   "typings": "src/index.d.ts",
   "scripts": {
     "test": "jest",
-    "update": "ncu -u && yarn install && yarn up",
+    "up": "ncu -u && npm install && npm update && npm audit fix",
     "build": "webpack --config webpack.config.js"
   },
   "devDependencies": {
