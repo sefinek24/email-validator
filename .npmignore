@@ -1,6 +1,3 @@
-.idea
-.yarn
 .github
+.idea
 .eslintrc.js
-.yarnrc.yml
-webpack.config.js
