@@ -41,8 +41,8 @@ https://cdn.jsdelivr.net/npm/@sefinek/email-validator@1/dist/browser.min.js
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>email-validator</title>
     <meta charset="utf-8">
+    <title>email-validator</title>
 </head>
 <body>
     <h1>email-validator</h1>
