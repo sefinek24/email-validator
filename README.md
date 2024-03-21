@@ -31,14 +31,9 @@ if (emailValidator.test(testEmail)) {
 
 
 ## 🌍 » Browser
-### jsdelivr.net (recommend)
+### jsdelivr.net
 ```
 https://cdn.jsdelivr.net/npm/@sefinek/email-validator@1/dist/browser.min.js
-```
-
-### cdn.sefinek.net
-```
-https://cdn.sefinek.net/npm/email-validator/dist/browser.min.js
 ```
 
 ### Example
@@ -67,7 +62,7 @@ https://cdn.sefinek.net/npm/email-validator/dist/browser.min.js
 ```
 
 ### Demo
-> https://cdn.sefinek.net/npm/email-validator/test/browser
+> https://sefinek.net/npm/email-validator/demo
 
 
 ## ⭐ » Thank you
