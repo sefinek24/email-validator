@@ -9,6 +9,7 @@ function isValidLocalPart(localPart) {
 		if (char === '.' && prevChar === '.') return false;
 		prevChar = char;
 	}
+
 	return true;
 }
 
@@ -17,6 +18,7 @@ function isValidDomain(domain) {
 	for (const part of domainParts) {
 		if (part.length === 0 || part.length > 63 || part.startsWith('-') || part.endsWith('-')) return false;
 	}
+
 	return true;
 }
 
