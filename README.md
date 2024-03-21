@@ -1,10 +1,20 @@
 # 📨 Email address validator
 This lightweight module facilitates precise email address validation, returning a `Boolean` value of `true` or `false`.
 
-[![npm downloads](https://img.shields.io/npm/dm/@sefinek/email-validator)](https://www.npmjs.com/package/@sefinek/email-validator)
-[![Issues](https://img.shields.io/github/issues/sefinek24/email-validator)](https://github.com/sefinek24/email-validator/issues)
-[![Last commit](https://img.shields.io/github/last-commit/sefinek24/email-validator)](https://github.com/sefinek24/email-validator/commits/main)
-[![Stats](https://data.jsdelivr.com/v1/package/npm/@sefinek/email-validator/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@sefinek/email-validator)
+<div align="center">
+    <a href="https://www.npmjs.com/package/@sefinek/email-validator">
+        <img src="https://img.shields.io/npm/dm/@sefinek/email-validator" alt="npm downloads">
+    </a>
+    <a href="https://github.com/sefinek24/email-validator/issues">
+        <img src="https://img.shields.io/github/issues/sefinek24/email-validator" alt="Issues">
+    </a>
+    <a href="https://github.com/sefinek24/email-validator/commits/main">
+        <img src="https://img.shields.io/github/last-commit/sefinek24/email-validator" alt="Last commit">
+    </a>
+    <a href="https://www.jsdelivr.com/package/npm/@sefinek/email-validator">
+        <img src="https://data.jsdelivr.com/v1/package/npm/@sefinek/email-validator/badge?style=rounded" alt="Stats">
+    </a>
+</div>
 
 ## 🟢 » Node.js
 ### Installation via npm
