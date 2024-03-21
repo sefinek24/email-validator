@@ -16,6 +16,7 @@ This lightweight module facilitates precise email address validation, returning 
     </a>
 </div>
 
+
 ## 🟢 » Node.js
 ### Installation via npm
 ```bash
